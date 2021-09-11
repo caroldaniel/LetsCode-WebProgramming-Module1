@@ -1,0 +1,100 @@
+body {
+	padding: 4vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+	font-size: 2.5rem;
+	color: rgb(5, 125, 218)
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 0.9rem;
+	line-height: 125%;
+	font-weight: bold;
+}
+
+p, ul, table, span {
+	font-size: 0.9rem;
+	line-height: 125%;
+}
+
+span {
+	font-style: italic;
+}
+
+header {
+	border: 2px solid rgb(59, 59, 59);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2vw;
+	position: relative;
+}
+
+header p {
+	position: absolute;
+	bottom: 0;
+	transform: translateY(50%);
+	background-color: white;
+	padding: 1vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(59, 59, 59)
+}
+
+main {
+	margin-top: 5vh;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 3vw;
+}
+
+.left {
+	width: 55vw;
+}
+
+.title {
+	padding-top: 2vh;
+	border-bottom: 2px solid rgb(59, 59, 59);
+	color:rgb(54, 125, 218)
+}
+
+.content {
+	padding-top: 2vh;
+}
+
+table {
+	width: 100%
+}
+
+td:nth-child(1) {
+	width: 65%
+}
+
+td:nth-child(2) {
+	width: 35%;
+	display: grid;
+	grid-template-columns: 15px 15px 15px 15px 15px;
+}
+
+.square {
+	width: 10px;
+	height: 10px;
+	line-height: 0;
+	background-color: white;
+}
+
+.active {
+	background-color: rgb(54, 125, 218);
+}
+
+.inactive {
+	background-color: rgb(206, 206, 206);
+}
