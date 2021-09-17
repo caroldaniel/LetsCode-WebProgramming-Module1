@@ -43,11 +43,15 @@ nav {
 	font-size: 0.9rem
 }
 
+.search label {
+	cursor: text
+}
+
 .search img {
 	position: absolute;
 	width: 12px;
 	top: 11px;
-	left: 15px
+	left: 15px;
 }
 
 /* NAVIGATION BAR LINKS */
@@ -218,6 +222,7 @@ header {
 	border: 0;
 }
 
+
 button.open-to {
 	color: white;
 	background-color: #0B65C2;
@@ -230,13 +235,16 @@ button.open-to:hover {
 button.others {
 	color: black;
 	background-color: white;
-	border: solid 1px black;
+	border: solid 1px grey;
 
 }
 
 button.others:hover {
-	border: solid 2px black;
+	transition: 0.1s;
+	border: solid 2px grey;
 	background-color: rgb(224, 224, 224);
+	padding-left: 14px;
+	padding-right: 14px;
 }
 
 /* EXPERIENCE AND EDUCATION */
