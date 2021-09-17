@@ -1,0 +1,397 @@
+:root {
+	font-family: 'Rambla', 'sans-serif';
+	background-color: #F3F2EE
+}
+
+/* TOP BAR */
+
+nav {
+	background-color: #FFF;
+	display: flex;
+	justify-content: center;
+	min-width: 750px;
+}
+
+.nav-content {
+	width: 700px;
+	margin-left: 3px;
+	margin-top: 13px;
+	margin-bottom: 12px;
+	display: flex;
+	column-gap: 7px;
+	position: relative
+}
+
+/* LINKEDIN ICON */
+.logo {
+	width: 34px
+}
+
+/* SEARCH BAR */
+.search {
+	position: relative
+}
+
+.search input {
+	padding-left: 34px;
+	height: 34px;
+	width: 235px;
+	border-style: none;
+	background-color: #EEF3F7;
+	border-radius: 4px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9rem
+}
+
+.search img {
+	position: absolute;
+	width: 12px;
+	top: 11px;
+	left: 15px
+}
+
+/* NAVIGATION BAR LINKS */
+
+nav a {
+	text-decoration: none;
+}
+
+.link-icons {
+	display: grid;
+	grid-template-columns: 58px 58px 58px 58px 58px;
+	justify-content: center;
+	position: absolute;
+	right: 58px;
+}
+
+.link-icons a img {
+	width: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: brightness(1)
+}
+
+.link-icons a:hover img {
+	filter: brightness(0)
+}
+
+.link-icons a p {
+	padding-top: 8px;
+	font-size: 10px;
+	text-align: center;
+	color: #555555
+}
+
+.link-icons a:hover p {
+	color: black
+}
+
+.profile-icon {
+	position: absolute;
+	right: 3px;
+}
+
+.profile-icon a img {
+	width: 24px;
+	border-radius: 12px;
+}
+
+.profile-icon a p {
+	font-size: 11px;
+	padding-top: 4px;
+	text-align: center;
+	color: #555555
+}
+
+.profile-icon a:hover p {
+	color: black
+}
+
+/* BODY */
+header {
+	margin-top: 38px;
+	min-width: 750px;
+}
+
+.content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 700px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-bottom: 32px;
+}
+
+/* HEADER */
+.head {
+	display: relative;
+	height: 270px;
+}
+
+.background {
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.profile {
+	display: absolute;
+	width: 120px;
+	border-radius: 60px;
+	border: 3px solid white;
+	transform: translate3d(25%, -50%, 0);
+}
+
+/* INFORMATION */
+.profile-info {
+	padding-left: 30px;
+}
+
+.profile-info a {
+	text-decoration: none;
+}
+
+.profile-info a:hover {
+	text-decoration: underline;
+}
+
+.profile-info a:visited {
+	color: #0B65C2;
+}
+
+.profile-info .name {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.profile-info .pronoums {
+	font-size: 0.9rem;
+}
+
+.profile-info .bio {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 1rem;
+}
+
+.profile-info .location {
+	font-size: .9rem;
+	font-weight: lighter;
+}
+
+.profile-info .contact-info {
+	font-size: .9rem;
+	font-weight: 700;
+	color: #0B65C2;
+	text-decoration: none;
+}
+
+.profile-info .connections {
+	padding-top: 0.5rem;
+	font-size: .9rem;
+	font-weight: 700;
+	color: #0B65C2;
+}
+
+/* BUTTONS */
+.buttons {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 30px;
+	display: flex;
+	column-gap: 14px;
+}
+
+.buttons button {
+	box-sizing: border-box;
+	border-radius: 13px;
+	height: 26px;
+	font-size: 13px;
+	font-weight: 700;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 0;
+}
+
+button.open-to {
+	color: white;
+	background-color: #0B65C2;
+}
+
+button.open-to:hover {
+	background-color: #06498b;
+}
+
+button.others {
+	color: black;
+	background-color: white;
+	border: solid 1px black;
+
+}
+
+button.others:hover {
+	border: solid 2px black;
+	background-color: rgb(224, 224, 224);
+}
+
+/* EXPERIENCE AND EDUCATION */
+main {
+	margin-top: 32px;
+	min-width: 750px;
+}
+
+.experience-block {
+	padding-top: 16px;
+	padding-left: 30px;
+	position: relative;
+}
+
+.experience-block h1 {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.experience-block img {
+	width: 50px;
+	height: 50px;
+}
+
+.details {
+	display: flex;
+	gap: 25px;
+	margin-top: 20px;
+}
+
+.details h1 {
+	color: #afafaf;
+	text-align: center;
+	width: 65px;
+}
+.details .description {
+	width: 650px;
+}
+
+.experience-block a {
+	text-decoration: none;
+	line-height: 1.5rem;
+	width: fit-content;
+}
+
+.experience-block a:hover {
+	text-decoration: underline;
+}
+
+.experience-block a:visited {
+	color: black;
+}
+
+/* JOB TITLE */
+
+.title {
+	margin-bottom: 15px
+}
+
+.title h2 {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.title h3 {
+	font-size: .9rem;
+} 
+
+.title h4 {
+	font-size: .9rem;
+	color: grey
+} 
+.title-first h2 {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.title-first h3 {
+	font-size: .9rem;
+} 
+
+.title-first h4 {
+	font-size: .9rem;
+	color: grey
+} 
+
+/* DESCRIPTION */
+
+.description {
+	line-height: 1.25rem;
+	margin-right: 100px
+}
+
+.description h2 {
+	font-size: .9rem;
+	font-weight: 700;
+}
+
+.description h3 {
+	font-size: 0.9rem;
+}
+
+.description h4 {
+	font-size: 0.9rem;
+	color: grey
+}
+
+.description p {
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	color: black
+}
+
+.job-bio {
+	padding-left: 75px;
+	margin-bottom: 15px
+}
+
+/* EDUCATION */
+.experience-block-bottom {
+	padding-top: 16px;
+	padding-left: 30px;
+	border-top: 1px solid rgb(224, 224, 224);
+	position: relative;
+}
+
+.experience-block-bottom h1 {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.experience-block-bottom img {
+	width: 50px;
+	height: 50px;
+}
+
+.experience-block-bottom a {
+	text-decoration: none;
+	line-height: 1.5rem;
+	width: fit-content;
+}
+
+.experience-block-bottom a:hover {
+	text-decoration: underline;
+}
+
+.experience-block-bottom a:visited {
+	color: black;
+}
+
+.division-border {
+	width: 595px;
+	height: 1px;
+	position: absolute;
+	right: 0;
+	margin-top: 5px;
+	background-color: rgb(224, 224, 224);
+}
