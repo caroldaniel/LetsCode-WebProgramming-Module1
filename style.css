@@ -285,7 +285,6 @@ main {
 }
 
 .experience-block a {
-	color: black;
 	text-decoration: none;
 	line-height: 1.5rem;
 	width: fit-content;
@@ -306,11 +305,13 @@ main {
 }
 
 .title h2 {
+	color: black;
 	font-size: 1rem;
 	font-weight: 700;
 }
 
 .title h3 {
+	color: black;
 	font-size: .9rem;
 } 
 
@@ -319,11 +320,13 @@ main {
 	color: grey
 } 
 .title-first h2 {
+	color: black;
 	font-size: 1rem;
 	font-weight: 700;
 }
 
 .title-first h3 {
+	color: black;
 	font-size: .9rem;
 } 
 
@@ -373,6 +376,7 @@ main {
 }
 
 .experience-block-bottom h1 {
+	color: black;
 	font-size: 1.2rem;
 	margin-bottom: 10px;
 }
@@ -383,7 +387,6 @@ main {
 }
 
 .experience-block-bottom a {
-	color: black;
 	text-decoration: none;
 	line-height: 1.5rem;
 	width: fit-content;
