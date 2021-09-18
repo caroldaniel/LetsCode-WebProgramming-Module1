@@ -285,6 +285,7 @@ main {
 }
 
 .experience-block a {
+	color: black;
 	text-decoration: none;
 	line-height: 1.5rem;
 	width: fit-content;
@@ -382,6 +383,7 @@ main {
 }
 
 .experience-block-bottom a {
+	color: black;
 	text-decoration: none;
 	line-height: 1.5rem;
 	width: fit-content;
